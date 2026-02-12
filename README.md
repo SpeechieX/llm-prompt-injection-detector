@@ -122,8 +122,6 @@ Fine-tuned from [`distilbert-base-uncased`](https://huggingface.co/distilbert-ba
 | `NameError: name 'LRScheduler' is not defined` | transformers version too new | Pin to `transformers==4.40.2` |
 | `RuntimeError: Numpy is not available` | numpy 2.x breaking changes | Pin to `numpy==1.26.4` |
 | `FileNotFoundError: train.csv not found` | prepare_data.py not run yet | Run `python prepare_data.py` first |
-| `Import string "api.app" must be in format` | Typo or wrong directory | Run `uvicorn api:app --reload` from project root |
-
 ---
 
 ## Project Structure
