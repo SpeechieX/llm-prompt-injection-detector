@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Prompt Injection Detector
 
 ## Description
@@ -152,4 +152,3 @@ This is **Project 1 of 5** in an AI Security learning path:
 =======
 # prompt-injection-detector
 A tool that classifies whether a user prompt is attempting to hijack an LLM's instructions.
->>>>>>> e37d63f57efdb1a1004ac98cd648995b156f1f5f
